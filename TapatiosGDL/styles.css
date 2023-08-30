@@ -117,12 +117,12 @@
         margin: 0;
         width: 100%;
         position: absolute;
-        /*top: -1000px;
-        opacity: 1; */
+        top: -1000px;
+        opacity: 0; 
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
-        background: rgb(2, 2, 2); 
+        background: #131313; 
     }
 
     .navbar__menu.active {
@@ -174,8 +174,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    height: 60px;
+    width: 80%;
+    height: 80px;
     margin: 0;
    }
 
